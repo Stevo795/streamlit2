@@ -1,13 +1,11 @@
 mkdir -p ~/.streamlit/
 
-echo"\
-[general]\n\
-email = \"gitduck@protonmail.com\"\n\
-" > ~/.streamlit/credentials.toml
 
-echo"\
+
+echo "\
 [server]\n\
 headless = true\n\
 enableCORS = false\n\
 prot = $PORT\n\
-"> ~/.streamlit/config.toml
+\n\
+" > ~/.streamlit/config.toml
