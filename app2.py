@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from sklearn.externals import joblib
-
+# from sklearn.externals import joblib
+import joblib
 
 from matplotlib import pyplot as plt
 
